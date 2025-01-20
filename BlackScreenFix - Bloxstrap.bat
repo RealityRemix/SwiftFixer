@@ -44,7 +44,7 @@ reg add "HKCU\Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers
 reg add "HKCU\Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers" /v "%path2%" /t REG_SZ /d "~ DISABLEDXMAXIMIZEDWINDOWEDMODE" /f
 
 cls
-echo %green%Black screen fixed, try injecting Synapse Z.%reset_color%
+echo %green%Black screen fixed, try using Swift.%reset_color%
 echo Press any key to exit...
 pause >nul
 exit /b 0
